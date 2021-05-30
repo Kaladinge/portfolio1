@@ -6,38 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&family=Merriweather:wght@700&family=Open+Sans&family=Russo+One&display=swap" rel="stylesheet">
     <link href="styles/index.css" rel="stylesheet" />
 </head>
 <body>
     <h1>My portfolio from First year</h1>
     <div id="content">
-        <div class="project-block">
-            <img class="website-picture">
-            <h2>First website: Gamehub</h2>
-            <img class="logo">
+        <div class="project-block gamehub-block">
+            <img src="images/gamehub2.jpg" class="site-picture link" alt="gamehub picture leading to gamehub page">
+            <img src="images/gamehub-logo.png" class="logo gamehub" alt="gamehub-logo">
+            <h2 id="gamehub-style">First website</h2>
             <a href="">View the project</a>
             <a href="">View on GitHub</a>
             <button>Read about recent changes to this project</button>
             <div class="changes"></div>
         </div>
-        <div class="project-block">
-            <img class="website-picture">
-            <h2>Semester Project: Semester Project</h2>
-            <img class="logo">
+        <div class="project-block museum-block">
+            <img src="images/museum2.jpg" class="site-picture inside-museum" alt="gamehub picture leading to museum page">
+            <img src="images/community-science-logo.png" class="logo museum" alt="gamehub-logo">
+            <h2 id="museum-style">Semester Project</h2>
             <a href="">View the project</a>
             <a href="">View on GitHub</a>
             <button>Read about recent changes to this project</button>
             <div class="changes"></div>
         </div>
-        <div class="project-block">
-            <img class="website-picture">
-            <h2>Exam Project 1: Guitarrr</h2>
-            <img class="logo">
+        <div class="project-block guitarrr-block">
+            
+            <img src="images/guitarrr.jpg" class="site-picture pirate" alt="gamehub picture leading to guitarrr page">
+            <h2 class="guitarrr">Guitarrr!</h2>
+            <div class="picture2-container">
+                <img src="images/logo-banner2.jpg" class="pirate2" alt="gamehub picture leading to guitarrr page">
+                <h2 class="guitarrr2">Guitarrr!</h2>
+            </div>
+            <h2 id="guitarrr-style">Exam Project 1</h2>
             <a href="">View the project</a>
             <a href="">View on GitHub</a>
             <button>Read about recent changes to this project</button>
             <div class="changes"></div>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>

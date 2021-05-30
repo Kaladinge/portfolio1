@@ -1,26 +1,199 @@
+body {
+  font-size: 20px;
+  font-family: "Open Sans";
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
 h1 {
   text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-left: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+#gamehub-style {
+  font-family: "Russo One", "Open Sans";
+}
+
+#museum-style {
+  font-family: "Merriweather";
+}
+
+#guitarrr-style {
+  color: darkblue;
+}
+
+#guitarrr-style,
+.guitarrr,
+.guitarrr2 {
+  font-family: "IM Fell DW Pica";
 }
 
 #content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
   border: 1px solid black;
 }
 
 .project-block {
+  position: relative;
   margin: 30px auto;
   border: 1px solid black;
-  width: 700px;
-  max-width: 95%;
+  width: 900px;
+  max-width: 90%;
+  padding: 10px 30px;
+  background-color: #1b203d;
+}
+
+.museum-block {
+  background-color: #f79420;
+}
+
+.guitarrr-block {
+  background-color: #ffffff;
+}
+
+.site-picture {
+  width: 100%;
+}
+
+.gamehub,
+.museum {
+  position: absolute;
+  width: 220px;
+  background-color: white;
   padding: 10px;
+  top: 100px;
+  right: 50px;
+}
+
+.museum {
+  top: 130px;
+  left: 80px;
+}
+
+.guitarrr {
+  position: absolute;
+  color: black;
+  top: 170px;
+  left: 180px;
+}
+
+.picture2-container {
+  display: none;
 }
 
 a,
 button {
-  display: block;
-  margin-bottom: 20px;
+  margin: 20px;
+  color: gold;
+}
+
+.museum-block a {
+  color: rgb(191, 6, 6);
+}
+
+.guitarrr-block a {
+  color: darkblue;
+}
+
+button {
+  padding: 5px;
+  font-size: 20px;
   color: black;
+  background-color: gold;
+}
+
+.museum-block button {
+  background-color: rgb(191, 6, 6);
+  color: white;
+}
+
+.guitarrr-block button {
+  background-color: darkblue;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .gamehub {
+    width: 180px;
+    top: 90px;
+  }
+
+  .guitarrr {
+    font-size: 5vw;
+    left: 17%;
+    top: 24%;
+  }
+
+  .project-block {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    margin-left: 0;
+  }
+
+  .link,
+  .inside-museum {
+    display: none;
+  }
+
+  .gamehub,
+  .museum {
+    position: relative;
+    width: 250px;
+    margin: auto;
+    top: 10px;
+    left: 0px;
+  }
+
+  .picture2-container {
+    position: relative;
+    border: 1px solid black;
+    display: block;
+    width: 272px;
+    margin: 0 auto;
+  }
+
+  .guitarrr2 {
+    position: absolute;
+    top: 82px;
+    left: 23%;
+    font-size: 20px;
+    color: black;
+  }
+
+  .pirate2 {
+    display: block;
+    height: 150px;
+    width: 270px;
+    object-fit: cover;
+    object-position: left;
+    margin: 10px auto;
+    border: 1px solid black;
+  }
+
+  .project-block {
+    padding: 0;
+    text-align: center;
+  }
+
+  a {
+    display: block;
+  }
+
+  .pirate,
+  .guitarrr {
+    display: none;
+  }
 }
