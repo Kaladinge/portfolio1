@@ -121,6 +121,25 @@ button {
   color: white;
 }
 
+.changes {
+  display: none;
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.text-categories {
+  font-style: italic;
+}
+
+.topics {
+  font-weight: 900;
+  margin-top: 60px;
+}
+
 @media only screen and (max-width: 1000px) {
   .gamehub {
     width: 180px;
