@@ -105,20 +105,29 @@ button {
 }
 
 button {
-  padding: 5px;
   font-size: 20px;
   color: black;
   background-color: gold;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
 }
 
 .museum-block button {
-  background-color: rgb(191, 6, 6);
+  background-color: rgb(238, 2, 2);
   color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
 }
 
 .guitarrr-block button {
   background-color: darkblue;
   color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
 }
 
 .changes {
@@ -160,6 +169,11 @@ button {
 @media only screen and (max-width: 800px) {
   h2 {
     margin-left: 0;
+    text-align: left;
+  }
+
+  h4 {
+    text-align: center;
   }
 
   .link,
@@ -204,7 +218,7 @@ button {
 
   .project-block {
     padding: 0;
-    text-align: center;
+    text-align: left;
   }
 
   a {
