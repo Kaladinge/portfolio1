@@ -169,11 +169,15 @@ button {
 @media only screen and (max-width: 800px) {
   h2 {
     margin-left: 0;
-    text-align: left;
+    text-align: center;
   }
 
   h4 {
     text-align: center;
+  }
+
+  .changes {
+    text-align: left;
   }
 
   .link,
@@ -218,7 +222,7 @@ button {
 
   .project-block {
     padding: 0;
-    text-align: left;
+    text-align: center;
   }
 
   a {
