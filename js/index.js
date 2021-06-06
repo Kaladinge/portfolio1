@@ -22,14 +22,5 @@ buttons.forEach(function(button, item) {
         }
     }
 }
-       
-        
-
-        
-        
-
     }
-
-    
-    
 });
